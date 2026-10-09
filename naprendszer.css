@@ -1,6 +1,8 @@
-ody{
+body{
     padding: 10px 40px;
     font-family: Verdana, sans-serif;
+    background-image: url(forras_naprendszer/hatter.png);
+    color: #fff3c4;
   }
   
   h1, h2{
@@ -19,6 +21,7 @@ ody{
   
   a{
     text-decoration: none;
+    color: #FFB347;
   }
   
   #naprajz{
@@ -31,16 +34,20 @@ ody{
   
   .oszlopok{
     column-count: 3;
+    height: 150%;
   }
   
   .fk{
     font-weight: normal;
+    font-weight: bold;
   }
   
   .kiemel{
     font-size: 90%;
     padding: 10px;
     border: 1px dashed #FFB347;
+    font-style: italic;
+    color: #2b3a67;
   }
   
   #bolygok{
